@@ -158,7 +158,7 @@ class Dnn():
             # self.merged = tf.summary.merge_all()
             self.file_writer = tf.summary.FileWriter(self.config.output_path, sess.graph)
 
-            _, train_loss = sess.run([self.train_step, self.cross_entropy], feed_dict=feed_dict)
+            _, train_loss = sess.run([self.train_step, self.loss], feed_dict=feed_dict)
 
             prog.update(i + 1, [("train loss", train_loss)])
 
