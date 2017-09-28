@@ -162,8 +162,6 @@ class Dnn():
 
             prog.update(i + 1, [("train loss", train_loss)])
 
-            js_divergence_value, accuracy, precision_X, recall_X, f1_score_X, precision_B_T, recall_B_T, f1_score_B_T = self.run_evaluate(
-                sess, test_data[200:])
 
         js_divergence_value, accuracy, precision_X, recall_X, f1_score_X, precision_B_T, recall_B_T, f1_score_B_T = self.run_evaluate(sess, test_data[200:])
 
