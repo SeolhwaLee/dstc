@@ -88,7 +88,7 @@ class Dnn():
             self.cross_entropy = tf.nn.weighted_cross_entropy_with_logits(logits=self.y,
                                                                      targets=tf.one_hot(self.ground_label, depth=3),
                                                                      pos_weight=classes_weights)
-            # self.cross_entropy = tf.reduce_mean(self.cross_entropy)
+            self.loss = tf.reduce_mean(self.cross_entropy)
             # self.cross_entropys = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.y, labels=self.ground_label)
             # self.cross_entropy = tf.reduce_mean(self.cross_entropys)
 
@@ -103,13 +103,13 @@ class Dnn():
             regularizer_out = tf.nn.l2_loss(weight_out)
             regularizer = regularizer1 + regularizer2 + regularizer3 + regularizer4 + regularizer_out
 
-            self.cross_entropy = tf.reduce_mean(self.cross_entropy + self.config.beta * regularizer)
+            self.loss = tf.reduce_mean(self.loss + self.config.beta * regularizer)
 
         with tf.variable_scope('optimizer') as scope:
-            self.train_step = tf.train.AdamOptimizer(self.config.lr).minimize(self.cross_entropy)
+            self.train_step = tf.train.AdamOptimizer(self.config.lr).minimize(self.loss)
             # self.train_step = tf.train.AdagradOptimizer(self.config.lr).minimize(self.cross_entropy)
 
-            tf.summary.scalar('loss', self.cross_entropy)
+            tf.summary.scalar('loss', self.loss)
 
     def add_pred_op(self):
         self.labels_pred = tf.cast(tf.argmax(self.y, axis=-1), tf.int32)
@@ -152,7 +152,7 @@ class Dnn():
             feed_dict = {
                 self.input_features: input_features,
                 self.ground_label: ground_label_list,
-                self.dropout_keep_prob : dropout_keep_prob
+                self.dropout_keep_prob: dropout_keep_prob
             }
 
             # self.merged = tf.summary.merge_all()
@@ -164,7 +164,8 @@ class Dnn():
 
             js_divergence_value, accuracy, precision_X, recall_X, f1_score_X, precision_B_T, recall_B_T, f1_score_B_T = self.run_evaluate(
                 sess, test_data[200:])
-        # accuracy, precision_X, recall_X, f1_score_X, precision_B_T, recall_B_T, f1_score_B_T = self.run_evaluate(sess, test_data[200:])
+
+        js_divergence_value, accuracy, precision_X, recall_X, f1_score_X, precision_B_T, recall_B_T, f1_score_B_T = self.run_evaluate(sess, test_data[200:])
 
         self.logger.info("JS_divergence : {:f}".format(js_divergence_value))
         self.logger.info("accuracy : {:f}".format(accuracy))
@@ -255,6 +256,8 @@ class Dnn():
                     ground_truth = np.array([.0, 1.0, .0])
                 elif ground_ele == 2:  # possible breakdown
                     ground_truth = np.array([.0, .0, 1.0])
+                else:
+                    raise ValueError("alksjdasdfbskdahflasdkasjld")
 
                 js_divergence_list.append(self.JSD_core(input_dist, ground_truth))
             js_divergence_value = np.mean(js_divergence_list)
