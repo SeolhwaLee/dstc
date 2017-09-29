@@ -15,7 +15,7 @@ def main(config):
 
     input_size = (utter_embed.get_vector_size() * 2) # concat size
 
-    num_neurons = [750, 750, 500, 250]
+    num_neurons = [7500, 7500, 5000, 2500]
 
     model = Dnn(input_size, num_neurons, 3, utter_embed, config)
     model.build()
