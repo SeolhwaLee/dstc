@@ -83,7 +83,7 @@ class Dnn():
         with tf.variable_scope('loss') as scope:
             self.y = y_output
             # 0.344 : 0.495 : 0.161
-            classes_weights = tf.constant([0.346, 0.476, 0.160])
+            classes_weights = tf.constant([0.364, 0.476, 0.160])
             self.cross_entropy = tf.nn.weighted_cross_entropy_with_logits(logits=self.y,
                                                                      targets=tf.one_hot(self.ground_label, depth=3),
                                                                      pos_weight=classes_weights)
