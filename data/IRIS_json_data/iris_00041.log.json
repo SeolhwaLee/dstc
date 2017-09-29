@@ -1,0 +1,1957 @@
+{
+    "group-id": "",
+    "speaker-id": "465348395875",
+    "turns": [
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "hello Alex",
+            "time": "",
+            "turn-index": 0
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "Can I give you my number?",
+            "time": "",
+            "turn-index": 1
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "please",
+            "time": "",
+            "turn-index": 2
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "Mr Bach-Templemead...",
+            "time": "",
+            "turn-index": 3
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "ha ha ha",
+            "time": "",
+            "turn-index": 4
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "hey head inAlexo Alexhe school. Shane spoAlexs someAlexhing.",
+            "time": "",
+            "turn-index": 5
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "you are alone there?",
+            "time": "",
+            "turn-index": 6
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "I know. I'll make sure. How about some breakfast?",
+            "time": "",
+            "turn-index": 7
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "nobody chats with you, let us have the breakfast",
+            "time": "",
+            "turn-index": 8
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "You know, Danny, you really ought to eat with the rest of us.",
+            "time": "",
+            "turn-index": 9
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "NEW SESSION",
+            "time": "",
+            "turn-index": 10
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "Where have you been?",
+            "time": "",
+            "turn-index": 11
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "please",
+            "time": "",
+            "turn-index": 12
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "What?",
+            "time": "",
+            "turn-index": 13
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "hello Alex",
+            "time": "",
+            "turn-index": 14
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "It's me.",
+            "time": "",
+            "turn-index": 15
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "who else is coming for breakfast?",
+            "time": "",
+            "turn-index": 16
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "Pass.",
+            "time": "",
+            "turn-index": 17
+        },
+        {
+            "speaker": "U",
+            "annotations": [],
+            "utterance": "what?",
+            "time": "",
+            "turn-index": 18
+        },
+        {
+            "speaker": "S",
+            "annotations": [
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43272257"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "37465804"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43226161"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "35903629"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40792955"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43225940"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40164165"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43258874"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43654409"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39712841"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43337967"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43620973"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43125754"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214184"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "O",
+                    "annotator-id": "43608172"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43506412"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43214420"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43103413"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "40163126"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43171001"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "41052942"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43405296"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "40032300"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "42847740"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43349959"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43681398"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43697153"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "X",
+                    "annotator-id": "43677035"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "39714350"
+                },
+                {
+                    "comment": "",
+                    "ungrammatical-sentence": "",
+                    "breakdown": "T",
+                    "annotator-id": "43433057"
+                }
+            ],
+            "utterance": "Danny, get into position.",
+            "time": "",
+            "turn-index": 19
+        }
+    ],
+    "dialogue-id": "iris_00041"
+}

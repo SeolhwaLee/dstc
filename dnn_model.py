@@ -26,6 +26,7 @@ class Dnn():
             self.dropout_keep_prob = tf.placeholder(tf.float32, name="dropout_keep_prob")
 
     def add_logits_op(self):
+        # layer1
         with tf.variable_scope('hidden_layer1') as scope:
             reshaped_features = tf.transpose(self.input_features, [1, 0, 2])
             # print('reshaped_features: ', reshaped_features.shape)
@@ -44,7 +45,7 @@ class Dnn():
 
 
         with tf.variable_scope(name[0]) as scope:
-            # layer1
+            # layer2
             weight_2 = tf.get_variable('weight2', [self.num_neuron[0], self.num_neuron[0]],
                                      initializer=tf.random_normal_initializer(stddev=math.sqrt(2 / self.num_neuron[0])))
             bias2 = tf.get_variable('bias2', initializer=tf.zeros([self.num_neuron[0], ]))
@@ -53,7 +54,7 @@ class Dnn():
             y = tf.nn.dropout(y, self.dropout_keep_prob)
 
         with tf.variable_scope(name[1]) as scope:
-            # layer1
+            # layer3
             weight_3 = tf.get_variable('weight3', [self.num_neuron[0], self.num_neuron[1]],
                                      initializer=tf.random_normal_initializer(stddev=math.sqrt(2 / self.num_neuron[0])))
             bias3 = tf.get_variable('bias3', initializer=tf.zeros([self.num_neuron[1], ]))
@@ -62,7 +63,7 @@ class Dnn():
             y = tf.nn.dropout(y, self.dropout_keep_prob)
 
         with tf.variable_scope(name[2]) as scope:
-            # layer1
+            # layer4
             weight_4 = tf.get_variable('weight4', [self.num_neuron[1], self.num_neuron[2]],
                                      initializer=tf.random_normal_initializer(stddev=math.sqrt(2 / self.num_neuron[1])))
             bias4 = tf.get_variable('bias4', initializer=tf.zeros([self.num_neuron[2], ]))
@@ -71,7 +72,7 @@ class Dnn():
             y = tf.nn.dropout(y, self.dropout_keep_prob)
 
         with tf.variable_scope('output_layer') as scope:
-            # layer2
+            # layer5
             weight_out = tf.get_variable('weight5',[self.num_neuron[2], self.num_classes], initializer=tf.random_normal_initializer(stddev=math.sqrt(2/self.num_neuron[2])))
             bias5 = tf.get_variable('bias5', initializer=tf.zeros([self.num_classes, ]))
             y_output = tf.matmul(y, weight_out) + bias5
@@ -79,12 +80,10 @@ class Dnn():
             self.y_distribution = tf.nn.softmax(y_output) # for JS_divergence
             y_output = tf.expand_dims(y_output, 0)
 
-
-
         with tf.variable_scope('loss') as scope:
             self.y = y_output
             # 0.344 : 0.495 : 0.161
-            classes_weights = tf.constant([0.346, 0.495, 0.161])
+            classes_weights = tf.constant([0.346, 0.476, 0.160])
             self.cross_entropy = tf.nn.weighted_cross_entropy_with_logits(logits=self.y,
                                                                      targets=tf.one_hot(self.ground_label, depth=3),
                                                                      pos_weight=classes_weights)
@@ -103,7 +102,7 @@ class Dnn():
             regularizer_out = tf.nn.l2_loss(weight_out)
             regularizer = regularizer1 + regularizer2 + regularizer3 + regularizer4 + regularizer_out
 
-            self.loss = tf.reduce_mean(self.loss + self.config.beta * regularizer)
+            # self.loss = tf.reduce_mean(self.loss + self.config.beta * regularizer)
 
         with tf.variable_scope('optimizer') as scope:
             self.train_step = tf.train.AdamOptimizer(self.config.lr).minimize(self.loss)
@@ -274,7 +273,7 @@ class Dnn():
         fn_O = (sum(confusion_matrix[0][:]) - confusion_matrix[0][0])
         fn_X = (sum(confusion_matrix[1][:]) - confusion_matrix[1][1])
         fn_T = (sum(confusion_matrix[2][:]) - confusion_matrix[2][2])
-        # print(confusion_matrix)
+        print(confusion_matrix)
 
         precision_X = tp_X / (tp_X + fp_X)
         recall_X = tp_X / (tp_X + fn_X)
