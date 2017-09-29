@@ -9,9 +9,9 @@ from math import log
 
 
 class Dnn():
-    def __init__ (self, input_size, num_neuron, num_classes, utter_embed, config):
+    def __init__ (self, input_size, num_neurons, num_classes, utter_embed, config):
         self.input_size = input_size
-        self.num_neuron = num_neuron
+        self.num_neuron = num_neurons
         self.num_classes = num_classes
         self.utter_embed = utter_embed
         self.logger = config.logger
@@ -33,7 +33,7 @@ class Dnn():
             reshaped_features = tf.reshape(reshaped_features, [-1, self.input_size])
 
             # layer1
-            weight_1 = tf.get_variable('weight1', [self.input_size, self.num_neuron[0]], initializer=tf.random_normal_initializer(stddev=math.sqrt(2/self.input_size)))
+            weight_1 = tf.get_variable('weight1', [self.input_size, self.num_neuron[0]], initializer=tf.contrib.layers.variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False))
             bias1 = tf.get_variable('bias1', initializer=tf.zeros([self.num_neuron[0], ]))
             # y1 = tf.matmul(x, W1) + b1
             z = tf.add(tf.matmul(reshaped_features, weight_1), bias1)
@@ -46,34 +46,34 @@ class Dnn():
 
         with tf.variable_scope(name[0]) as scope:
             # layer2
-            weight_2 = tf.get_variable('weight2', [self.num_neuron[0], self.num_neuron[0]],
-                                     initializer=tf.random_normal_initializer(stddev=math.sqrt(2 / self.num_neuron[0])))
-            bias2 = tf.get_variable('bias2', initializer=tf.zeros([self.num_neuron[0], ]))
+            weight_2 = tf.get_variable('weight2', [self.num_neuron[0], self.num_neuron[1]],
+                                     initializer=tf.contrib.layers.variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False))
+            bias2 = tf.get_variable('bias2', initializer=tf.zeros([self.num_neuron[1], ]))
             # y1 = tf.matmul(x, W1) + b1
             y = tf.nn.relu(tf.add(tf.matmul(y, weight_2), bias2))
             y = tf.nn.dropout(y, self.dropout_keep_prob)
 
         with tf.variable_scope(name[1]) as scope:
             # layer3
-            weight_3 = tf.get_variable('weight3', [self.num_neuron[0], self.num_neuron[1]],
-                                     initializer=tf.random_normal_initializer(stddev=math.sqrt(2 / self.num_neuron[0])))
-            bias3 = tf.get_variable('bias3', initializer=tf.zeros([self.num_neuron[1], ]))
+            weight_3 = tf.get_variable('weight3', [self.num_neuron[1], self.num_neuron[2]],
+                                     initializer=tf.contrib.layers.variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False))
+            bias3 = tf.get_variable('bias3', initializer=tf.zeros([self.num_neuron[2], ]))
             # y1 = tf.matmul(x, W1) + b1
             y = tf.nn.relu(tf.add(tf.matmul(y, weight_3), bias3))
             y = tf.nn.dropout(y, self.dropout_keep_prob)
 
         with tf.variable_scope(name[2]) as scope:
             # layer4
-            weight_4 = tf.get_variable('weight4', [self.num_neuron[1], self.num_neuron[2]],
-                                     initializer=tf.random_normal_initializer(stddev=math.sqrt(2 / self.num_neuron[1])))
-            bias4 = tf.get_variable('bias4', initializer=tf.zeros([self.num_neuron[2], ]))
+            weight_4 = tf.get_variable('weight4', [self.num_neuron[2], self.num_neuron[3]],
+                                     initializer=tf.contrib.layers.variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False))
+            bias4 = tf.get_variable('bias4', initializer=tf.zeros([self.num_neuron[3], ]))
             # y1 = tf.matmul(x, W1) + b1
             y = tf.nn.relu(tf.add(tf.matmul(y, weight_4), bias4))
             y = tf.nn.dropout(y, self.dropout_keep_prob)
 
         with tf.variable_scope('output_layer') as scope:
             # layer5
-            weight_out = tf.get_variable('weight5',[self.num_neuron[2], self.num_classes], initializer=tf.random_normal_initializer(stddev=math.sqrt(2/self.num_neuron[2])))
+            weight_out = tf.get_variable('weight5',[self.num_neuron[3], self.num_classes], initializer=tf.contrib.layers.variance_scaling_initializer(factor=2.0, mode='FAN_IN', uniform=False))
             bias5 = tf.get_variable('bias5', initializer=tf.zeros([self.num_classes, ]))
             y_output = tf.matmul(y, weight_out) + bias5
 
@@ -81,32 +81,34 @@ class Dnn():
             y_output = tf.expand_dims(y_output, 0)
 
         with tf.variable_scope('loss') as scope:
+            # y_output = tf.Print(y_output, [y_output], summarize=999999, message="y_output")
             self.y = y_output
             # 0.344 : 0.495 : 0.161
             classes_weights = tf.constant([0.364, 0.476, 0.160])
-            self.cross_entropy = tf.nn.weighted_cross_entropy_with_logits(logits=self.y,
-                                                                     targets=tf.one_hot(self.ground_label, depth=3),
-                                                                     pos_weight=classes_weights)
-            self.loss = tf.reduce_mean(self.cross_entropy)
-            # self.cross_entropys = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.y, labels=self.ground_label)
-            # self.cross_entropy = tf.reduce_mean(self.cross_entropys)
+            # self.cross_entropy = tf.nn.weighted_cross_entropy_with_logits(logits=self.y,
+            #                                                          targets=tf.one_hot(self.ground_label, depth=3),
+            #                                                          pos_weight=classes_weights)
+            # self.loss = tf.reduce_mean(self.cross_entropy)
+            
+            self.cross_entropys = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.y, labels=self.ground_label)
+            self.loss = tf.reduce_mean(self.cross_entropys)
 
-        with tf.variable_scope('regularization') as scope:
-            # weights = [weight_1, weight_2, weight_3, weight_4, weight_out]
-            # for i in range(self.config.num_layer):
-            #     regularizer = regularizer + tf.nn.l2_loss(weights[i])
-            regularizer1 = tf.nn.l2_loss(weight_1)
-            regularizer2 = tf.nn.l2_loss(weight_2)
-            regularizer3 = tf.nn.l2_loss(weight_3)
-            regularizer4 = tf.nn.l2_loss(weight_4)
-            regularizer_out = tf.nn.l2_loss(weight_out)
-            regularizer = regularizer1 + regularizer2 + regularizer3 + regularizer4 + regularizer_out
-
-            # self.loss = tf.reduce_mean(self.loss + self.config.beta * regularizer)
+        # with tf.variable_scope('regularization') as scope:
+        #     # weights = [weight_1, weight_2, weight_3, weight_4, weight_out]
+        #     # for i in range(self.config.num_layer):
+        #     #     regularizer = regularizer + tf.nn.l2_loss(weights[i])
+        #     regularizer1 = tf.nn.l2_loss(weight_1)
+        #     regularizer2 = tf.nn.l2_loss(weight_2)
+        #     regularizer3 = tf.nn.l2_loss(weight_3)
+        #     regularizer4 = tf.nn.l2_loss(weight_4)
+        #     regularizer_out = tf.nn.l2_loss(weight_out)
+        #     regularizer = regularizer1 + regularizer2 + regularizer3 + regularizer4 + regularizer_out
+        #
+        #     self.loss = tf.reduce_mean(self.cross_entropys + self.config.beta * regularizer)
 
         with tf.variable_scope('optimizer') as scope:
-            self.train_step = tf.train.AdamOptimizer(self.config.lr).minimize(self.loss)
-            # self.train_step = tf.train.AdagradOptimizer(self.config.lr).minimize(self.cross_entropy)
+            # self.train_step = tf.train.AdamOptimizer(self.config.lr).minimize(self.loss)
+            self.train_step = tf.train.AdamOptimizer().minimize(self.loss)
 
             tf.summary.scalar('loss', self.loss)
 
@@ -147,7 +149,7 @@ class Dnn():
 
             ground_label_list = np.array([ground_label_list])
 
-            dropout_keep_prob = 0.5
+            dropout_keep_prob = 0.8
             feed_dict = {
                 self.input_features: input_features,
                 self.ground_label: ground_label_list,
@@ -160,7 +162,6 @@ class Dnn():
             _, train_loss = sess.run([self.train_step, self.loss], feed_dict=feed_dict)
 
             prog.update(i + 1, [("train loss", train_loss)])
-
 
         js_divergence_value, accuracy, precision_X, recall_X, f1_score_X, precision_B_T, recall_B_T, f1_score_B_T = self.run_evaluate(sess, test_data[200:])
 
@@ -185,8 +186,6 @@ class Dnn():
     def JSD_core(self, p, q):
         M = [0.5 * (_p + _q) for _p, _q in zip(p, q)]
         return 0.5 * self.KLD(p, M) + 0.5 * self.KLD(q, M)
-
-
 
     def run_evaluate(self, sess, test_data):
         # create confusion matrix to evaluate precision and recall
